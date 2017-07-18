@@ -5,6 +5,17 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { LoginPage} from '../pages/login/login';
+import { MainPage } from '../pages/main/main';
+import { RegisterPage } from '../pages/register/register';
+import { CalculatorPage } from '../pages/calculator/calculator';
+import { LocatorPage } from '../pages/locator/locator';
+import { ComplaintPage } from '../pages/complaint/complaint';
+import { NewsPage } from '../pages/news/news';
+import { DisruptionPage } from '../pages/disruption/disruption';
+import { BillingviewPage } from '../pages/billingview/billingview';
+import { BillingpayPage } from '../pages/billingpay/billingpay';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -22,7 +33,17 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'List', component: ListPage },
+      { title: 'LoginPage', component: LoginPage},
+      { title: 'MainPage', component: MainPage },
+      { title: 'RegisterPage', component: RegisterPage },
+      { title: 'CalculatorPage', component: CalculatorPage },
+      { title: 'LocatorPage', component: LocatorPage },
+      { title: 'ComplaintPage', component: ComplaintPage },
+      { title: 'NewsPage', component: NewsPage },
+      { title: 'DisruptionPage', component: DisruptionPage },
+      { title: 'BillingviewPage', component: BillingviewPage },
+      { title: 'BillingpayPage', component: BillingpayPage }
     ];
 
   }
