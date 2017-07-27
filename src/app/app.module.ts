@@ -15,6 +15,7 @@ import { NewsPage } from '../pages/news/news';
 import { DisruptionPage } from '../pages/disruption/disruption';
 import { BillingviewPage } from '../pages/billingview/billingview';
 import { BillingpayPage } from '../pages/billingpay/billingpay';
+import { LayoutsPage } from '../pages/layouts/layouts';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -55,6 +56,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DisruptionPage,
     BillingviewPage,
     BillingpayPage
+
   ],
   providers: [
     StatusBar,

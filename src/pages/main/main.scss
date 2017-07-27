@@ -1,3 +1,160 @@
 page-main {
+  .cb1 {width: calc(10% - 20px);float:left; margin:10px !important;}
+	.cb2 {width: calc(20% - 20px);float:left; margin:10px !important;}
+	.cb3 {width: calc(30% - 20px);float:left; margin:10px !important;}
+	.cb4 {width: calc(40% - 20px);float:left; margin:10px !important;}
+	.cb5 {width: calc(50% - 20px);float:left; margin:10px !important;}
+	.cb6 {width: calc(60% - 20px);float:left; margin:10px !important;}
+	.cb7 {width: calc(70% - 20px);float:left; margin:10px !important;}
+	.cb8 {width: calc(80% - 20px);float:left; margin:10px !important;}
+	.cb9 {width: calc(90% - 20px);float:left; margin:10px !important;}
+	.cb10 {width: calc(100% - 20px);float:left; margin:10px !important;}
+
+	.hd {text-align: center;}
+
+	.hdIcon {color: #c8c8c8;font-size: 150px;margin: 10px;transition: all 0.3s ease;}
+
+	.cbTitle {font-size: 22px;text-align: center;color: #aaa;margin-top: -30px;}
+
+	.cardBox {
+		cursor: pointer;
+		box-shadow: none;
+		border: 1px solid #e4e4e4;
+		border-radius: 5px;
+		min-height: 10px; //tukar ikut ko suka
+	}
+
+    ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+
+ion-row {
+    width:100%;
+    /*margin: 6.4% 0 0 18.7%;*/
+}
+ion-col{
+    width: 250px;
+    height: 100px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    float: left;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+    -webkit-perspective:1500;
+    -moz-perspective:1500;
+    -ms-perspective:1500;
+    -o-perspective:1500;
+    perspective:1500;
+}
+div {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    backface-visibility:hidden;
+}
+.front {
+    text-align: center;
+    font-size: 12px;
+}
+.rear {
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    font-size: 12px;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    -ms-transform:rotateY(-180deg);
+    -o-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    background:dodgerblue;
+    }
+ion-col:hover > .front{
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+    transform:rotateY(180deg);
+}
+ion-col:hover > .rear {
+    -webkit-transform:rotateY(0deg);
+    -moz-transform:rotateY(0deg);
+    -ms-transform:rotateY(0deg);
+    -o-transform:rotateY(0deg);
+    transform:rotateY(0deg);
+}
+#tile1 {
+    background: darkblue;
+}
+#tile2 {
+    background: darkblue;
+}
+#tile3 {
+    background: darkblue;
+}
+#tile4 {
+    background: darkblue;
+}
+#tile5 {
+    background: darkblue;
+}
+#tile6 {
+    background: darkblue;
+}
+#tile7 {
+    background: darkblue;
+}
+#tile8 {
+    background: darkblue;
+}
+#tile9 {
+    background: darkblue;
+}
+ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  ion-icon {
+        font-size: 60px; //Preferred size here
+    }
 
 }
