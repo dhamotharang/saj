@@ -3,8 +3,8 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+// import { HomePage } from '../pages/home/home';
+// import { ListPage } from '../pages/list/list';
 import { LoginPage} from '../pages/login/login';
 import { MainPage } from '../pages/main/main';
 import { RegisterPage } from '../pages/register/register';
@@ -15,8 +15,7 @@ import { NewsPage } from '../pages/news/news';
 import { DisruptionPage } from '../pages/disruption/disruption';
 import { BillingviewPage } from '../pages/billingview/billingview';
 import { BillingpayPage } from '../pages/billingpay/billingpay';
-
-
+import { LayoutsPage } from '../pages/layouts/layouts';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -25,8 +24,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    ListPage,
+//    HomePage,
+//    ListPage,
     LoginPage,
     MainPage,
     RegisterPage,
@@ -45,8 +44,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    ListPage,
+//    HomePage,
+//    ListPage,
     LoginPage,
     MainPage,
     RegisterPage,
@@ -57,6 +56,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DisruptionPage,
     BillingviewPage,
     BillingpayPage
+
   ],
   providers: [
     StatusBar,

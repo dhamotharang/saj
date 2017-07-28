@@ -1,0 +1,64 @@
+    .cb1 {width: calc(10% - 20px);float:left; margin:10px !important;}
+	.cb2 {width: calc(20% - 20px);float:left; margin:10px !important;}
+	.cb3 {width: calc(30% - 20px);float:left; margin:10px !important;}
+	.cb4 {width: calc(40% - 20px);float:left; margin:10px !important;}
+	.cb5 {width: calc(50% - 20px);float:left; margin:10px !important;}
+	.cb6 {width: calc(60% - 20px);float:left; margin:10px !important;}
+	.cb7 {width: calc(70% - 20px);float:left; margin:10px !important;}
+	.cb8 {width: calc(80% - 20px);float:left; margin:10px !important;}
+	.cb9 {width: calc(90% - 20px);float:left; margin:10px !important;}
+	.cb10 {width: calc(100% - 20px);float:left; margin:10px !important;}
+
+	.hd {text-align: center;}
+
+	.hdIcon {color: #c8c8c8;font-size: 150px;margin: 10px;transition: all 0.3s ease;}
+
+	.cbTitle {font-size: 22px;text-align: center;color: #aaa;margin-top: -30px;}
+
+	.cardBox {
+		cursor: pointer;
+		box-shadow: none;
+		border: 1px solid #e4e4e4;
+		border-radius: 5px;
+		min-height: 10px; //tukar ikut ko suka
+	}
+
+    ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+
+  .scroll-content {
+    background-image:url('\assets\img\background.jpg') !important;
+    background-size: cover !important;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+    contain: size style layout;
+}
+
