@@ -16,34 +16,36 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-item class="registerLabel">
-    <p>Account No :</p>
-  </ion-item>
-  <ion-item class="registerLabel">
-    <p>Name :</p>
-  </ion-item>
-  <ion-item class="registerLabel">
-    <p>Address:</p>
-  </ion-item>
-  <ion-item class="registerLabel">
-    <p>Current Balance:</p>
-  </ion-item>
-  <ion-item class="registerLabel">
-    <p>Last Payment Info:</p>
-  </ion-item>
-  <ion-item class="registerLabel">
-    <p>Last Billing Info:</p>
-  </ion-item>
-  <ion-grid>
-    <ion-row>
-       <ion-col col-6><img src="../assets/img/waterBill.png"/>
-          <div class="card-title">3 Months Bills</div>
-       </ion-col>
-       <ion-col col-6><img src="../assets/img/ourservices.png"/><p>Our Services</p></ion-col>
-    </ion-row>
-    <ion-row>
-       <ion-col col-6><img src="../assets/img/consumerreport.png"/><p>Consumer Info</p></ion-col>
-       <ion-col col-6><img src="../assets/img/complaint.png"/><p>Complaint / Report</p></ion-col>
-    </ion-row>
-  </ion-grid>
+
+  <ion-card>
+    <ion-card-header>
+      <img src="../assets/img/logo.png" />
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+          <ion-item class="registerLabel">
+            <p>Account No : J123478</p>
+          </ion-item>
+          <ion-item class="registerLabel">
+            <p>Name : Khairulzaman Khairrudin</p>
+          </ion-item>
+          <ion-item class="registerLabel">
+            <p>Address: A-5-2 Dahlia Aparment,<br> Jalan Onn Jaffaar, <br>Skudai</p>
+          </ion-item>
+          <ion-item class="registerLabel">
+            <p>Current Balance: RM14.50 </p>
+          </ion-item>
+          <ion-item class="registerLabel">
+            <p>Last Payment Info: RM 23.88</p>
+          </ion-item>
+          <ion-item class="registerLabel">
+            <p>Last Billing Info: Active</p>
+          </ion-item>
+      </ion-list>
+
+      <!--<div padding>
+        <button ion-button full>Submit</button>
+      </div>-->
+    </ion-card-content>
+  </ion-card>
 </ion-content>
