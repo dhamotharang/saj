@@ -90,13 +90,13 @@ div {
     color: white;
     text-align: center;
     line-height: 150px;
-    font-size: 12px;
+    font-size: 15px;
     -webkit-transform:rotateY(-180deg);
     -moz-transform:rotateY(-180deg);
     -ms-transform:rotateY(-180deg);
     -o-transform:rotateY(-180deg);
     transform:rotateY(-180deg);
-    background:dodgerblue;
+    background:forestgreen;
     }
 ion-col:hover > .front{
     -webkit-transform:rotateY(180deg);
@@ -113,31 +113,31 @@ ion-col:hover > .rear {
     transform:rotateY(0deg);
 }
 #tile1 {
-    background: darkblue;
+    background: white;
 }
 #tile2 {
-    background: darkblue;
+    background: white;
 }
 #tile3 {
-    background: darkblue;
+    background: white;
 }
 #tile4 {
-    background: darkblue;
+    background: white;
 }
 #tile5 {
-    background: darkblue;
+    background: white;
 }
 #tile6 {
-    background: darkblue;
+    background: white;
 }
 #tile7 {
-    background: darkblue;
+    background: white;
 }
 #tile8 {
-    background: darkblue;
+    background: white;
 }
 #tile9 {
-    background: darkblue;
+    background: white;
 }
 ion-card {
     position: relative;
@@ -156,5 +156,22 @@ ion-card {
   ion-icon {
         font-size: 60px; //Preferred size here
     }
+
+.scroll-content {
+  background-image: url("../assets/img/background.jpg");
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  will-change: scroll-position;
+  contain: size style layout;
+}
 
 }

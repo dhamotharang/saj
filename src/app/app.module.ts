@@ -15,6 +15,7 @@ import { NewsPage } from '../pages/news/news';
 import { DisruptionPage } from '../pages/disruption/disruption';
 import { BillingviewPage } from '../pages/billingview/billingview';
 import { BillingpayPage } from '../pages/billingpay/billingpay';
+import { ReportsPage } from '../pages/reports/reports';
 import { LayoutsPage } from '../pages/layouts/layouts';
 
 
@@ -35,7 +36,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NewsPage,
     DisruptionPage,
     BillingviewPage,
-    BillingpayPage
+    BillingpayPage,
+    ReportsPage
   ],
   imports: [
     BrowserModule,
@@ -55,8 +57,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NewsPage,
     DisruptionPage,
     BillingviewPage,
-    BillingpayPage
-
+    BillingpayPage,
+    ReportsPage
   ],
   providers: [
     StatusBar,

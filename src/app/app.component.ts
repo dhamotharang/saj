@@ -15,6 +15,8 @@ import { NewsPage } from '../pages/news/news';
 import { DisruptionPage } from '../pages/disruption/disruption';
 import { BillingviewPage } from '../pages/billingview/billingview';
 import { BillingpayPage } from '../pages/billingpay/billingpay';
+import { ReportsPage } from '../pages/reports/reports';
+import { LayoutsPage } from '../pages/layouts/layouts';
 
 
 @Component({
@@ -43,7 +45,8 @@ export class MyApp {
       { title: 'NewsPage', component: NewsPage },
       { title: 'DisruptionPage', component: DisruptionPage },
       { title: 'BillingviewPage', component: BillingviewPage },
-      { title: 'BillingpayPage', component: BillingpayPage }
+      { title: 'BillingpayPage', component: BillingpayPage },
+      { title: 'ReportsPage', component: ReportsPage }
     ];
 
   }
